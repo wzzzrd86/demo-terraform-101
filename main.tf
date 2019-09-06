@@ -4,6 +4,7 @@ terraform {
 
 provider "aws" {
   version = ">= 1.20.0"
+  region = "us-west-2"
 }
 
 module "server" {
